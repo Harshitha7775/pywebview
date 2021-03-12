@@ -17,3 +17,4 @@ if __name__ == '__main__':
     webview.create_window('CEF Example', 'https://pywebview.flowrl.com/hello')
     webview.start(gui='cef')
 ```
+CEF is used for opening Chromium based web browser on other different platforms. 'persist_session_cookies'=True creates persistent cookies which are destroyed once the web browser is closed. 
